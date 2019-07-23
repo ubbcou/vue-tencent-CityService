@@ -31,7 +31,7 @@
                         if (!res.detail.name) {
                             return;
                         } else {
-                            _this,currentCity_detail = res.detail.detail;
+                            _this.currentCity_detail = res.detail.detail;
                             _this.currentCity = res.detail.name;
                         }
                     }
