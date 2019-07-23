@@ -53,7 +53,7 @@ title: 使用VUE对腾讯地图API进行的操作
                         if (!res.detail.name) {
                             return;
                         } else {
-                            _this,currentCity_detail = res.detail.detail;
+                            _this.currentCity_detail = res.detail.detail;
                             _this.currentCity = res.detail.name;
                         }
                     }
